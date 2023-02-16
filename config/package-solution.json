@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-with-kyle-client-side-solution",
+    "id": "dc6fd3ab-4acf-4c82-8df0-131a8f1d584a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFxWithKyle description"
+      },
+      "longDescription": {
+        "default": "SPFxWithKyle description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-with-kyle Feature",
+        "description": "The feature that activates elements of the sp-fx-with-kyle solution.",
+        "id": "a545132f-1a8d-4b8e-9200-d9ba666f8625",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-with-kyle.sppkg"
+  }
+}
